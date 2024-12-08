@@ -1,6 +1,6 @@
 function getweather(){
     var city= document.getElementById("city").value;
-    var apikey='734f87419b9d42249032b89d4703639f'
+    var apikey='apikey'
     const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
     const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apikey}`;
     
