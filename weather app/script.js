@@ -51,11 +51,7 @@ function displayweather(data){
         
         const iconurl=`https://openweathermap.org/img/wn/${iconcode}@4x.png`
 
-        const weathercityhtml=`0.............................................................console.log('Fetching current weather data...');
-console.log('Fetching forecast data...');
-console.log('Displaying weather data...');
-console.log('Displaying forecast data...');24
-        60.........................
+        const weathercityhtml=`
         <p>${cityname}</p>
         <p>${description}</p>
         `
