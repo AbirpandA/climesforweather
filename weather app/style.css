@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-image 0.1s ease-in, opacity 1s ease-in;
 }
 
 .container {
@@ -156,4 +157,44 @@ body {
 
 .details section:last-child {
     text-align: right;
+}
+@media only screen and (max-width: 650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .weatherdiplay{
+        flex: 1;
+        padding: 20px;
+    }
+    .weatherdiplay .temp{
+        font-size: 4rem;
+    }
+    #weatheris{
+        font-size: 1rem;
+    }
+    .weatherdetails{
+        float: 1;
+        padding: 15px;
+    }
+    .weatherinput{
+        gap: 5px;
+    }
+    .weatherinput input{
+        font-size: 0.9rem;
+    }
+    .details{
+        font-size: 1rem;
+        padding: 10px;
+        
+    }
+    .detail{
+        width: 300px;
+    }
+    .weatherforecast{
+        align-items: flex-end;
+    }
+    
+
 }
