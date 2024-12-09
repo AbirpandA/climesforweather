@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     color: white;
-    background: url('https://img.freepik.com/free-photo/colorful-sky-after-sunset_661209-461.jpg') no-repeat center center/cover; /* Replace with your background image */
+    background: url('https://images.unsplash.com/photo-1536244636800-a3f74db0f3cf?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover; /* Replace with your background image */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -24,6 +24,8 @@ body {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 8px 36px rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
 }
 
 /* Left Section: Weather Display */
@@ -129,21 +131,22 @@ body {
     white-space: nowrap;
     display: flex;
     justify-content:space-around;
-    gap: 30px;
+    gap: 35px;
     align-items: center;
     padding: 15px;
 }
 
-#forecast h2 {
+/* #forecast h2 {
     font-size: 1.5rem;
-    font-weight:100;
-}
+    text-align: center;
+} */
 .weatherforecast{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 /* Weather Icon Section */
 .details section:first-child {
