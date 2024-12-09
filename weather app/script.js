@@ -92,7 +92,7 @@ function displayweather(data){
         } else {
 
         if (description.includes('clear')) {
-            backgroundImage = "url('https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?auto=compress&cs=tinysrgb&w=600')";
+            backgroundImage = "url('https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
         } else if (description.includes('clouds')) {
             backgroundImage = "url('https://images.unsplash.com/photo-1572162522099-7a0c28d7691b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
         } else if (description.includes('rain')) {
@@ -102,7 +102,7 @@ function displayweather(data){
         } else if (description.includes('thunderstorm')) {
             backgroundImage = "url('https://images.pexels.com/photos/3657143/pexels-photo-3657143.jpeg?auto=compress&cs=tinysrgb&w=600')";
         } else {
-            backgroundImage = "url('https://static.vecteezy.com/system/resources/previews/035/987/337/large_2x/ai-generated-clear-night-sky-filled-with-stars-that-seem-to-twinkle-against-a-dark-backdrop-free-photo.jpg')"; // Fallback image
+            backgroundImage = "url('https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"; // Fallback image
         }
 
         
